@@ -1,0 +1,30 @@
+md-toolbar md-icon {
+  margin: 0 8px;
+}
+
+md-toolbar-row {
+  justify-content: space-between;
+}
+
+[md-fab] {
+  top: 50%;
+  position: relative;
+}
+
+.desc {
+  color: rgba(0,0,0,0.54);
+}
+
+md-card [md-button] {
+  font-size: 20px;
+}
+
+md-card {
+  margin: 16px;
+  width: 350px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
